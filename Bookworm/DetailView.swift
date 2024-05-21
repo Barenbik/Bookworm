@@ -35,6 +35,11 @@ struct DetailView: View {
             Text(book.author)
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 .foregroundStyle(.secondary)
+                .fontWeight(.semibold)
+            
+            Text(book.date)
+                .font(.title3)
+                .padding(1)
             
             Text(book.review)
                 .padding()
